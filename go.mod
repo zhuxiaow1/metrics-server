@@ -3,7 +3,7 @@ module sigs.k8s.io/metrics-server
 go 1.20
 
 require (
-	github.com/google/go-cmp v0.5.9
+	github.com/google/go-cmp v0.6.0
 	github.com/onsi/ginkgo v1.14.0
 	github.com/onsi/gomega v1.27.6
 	github.com/prometheus/common v0.44.0
