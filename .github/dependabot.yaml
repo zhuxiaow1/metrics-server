@@ -12,6 +12,10 @@ updates:
   directory: /
   schedule:
     interval: weekly
+  groups:
+    gomod-dependencies:
+      patterns:
+        - "*"
 - package-ecosystem: gomod
   directory: /scripts
   schedule:
