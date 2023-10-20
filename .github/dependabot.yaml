@@ -16,3 +16,7 @@ updates:
   directory: /scripts
   schedule:
     interval: weekly
+  groups:
+    gomod-dependencies:
+      patterns:
+        - "*"
